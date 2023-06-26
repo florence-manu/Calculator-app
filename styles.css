@@ -1,0 +1,58 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    background-color: red;
+}
+
+.container{
+    border: 1px solid blue;
+    width: 90%;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+}
+
+.header{
+    border: 1px solid green;
+    height: 8%;
+}
+
+.wrapper{
+    border: 1px solid red;
+    width: 90%;
+    margin: 5%;
+}
+.calcus-container{
+    margin-top: 40%;
+    /* height: ; */
+    border: 1px solid pink;
+}
+
+/* .calcus{
+   margin: 5%;
+   background-color: aqua;
+   margin-top: 40%;
+   /* padding: 10%; */
+/* }  */ */
+
+input{
+    width: 23%;
+    padding: 5%;
+    border-radius: 8%;
+} 
+
+ .btn-three, .btn-seven, .btn-eleven, .btn-fifteen, .btn-eighteen{
+    margin-left: 2.5%;
+}
+
+.btn-seventeen, .btn-eighteen{
+    width: 47.5%;
+}
