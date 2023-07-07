@@ -7,7 +7,7 @@
   <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
   <link rel="stylesheet" href="styles.css">
   
-  <title>Frontend Mentor | Calculator app</title>
+  <title>Florence</title>
   <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
   <!-- <style>
     .attribution { font-size: 11px; text-align: center; }
@@ -16,63 +16,73 @@
 </head>
 <body>
 
+<div class="wrapper">
   <div class="head">
-
-    <div class="upper-text">calc</div>
+    <header>
+      <div class="upper-text">calc</div>
+     
+   <div class="header-right">
+     <div class="text">THEMES</div>
+    <div class="picker">
     <div class="color-numbers">1 2 3</div>
-    <div class="text">THEMES</div>
-
     <div class="color-picker">
-      <img class="circle-1" src="images/Oval.svg" alt="">
+      <!-- <img class="circle-1" src="images/Oval.svg" alt="">
       <img class="circle-2" src="images/Oval.svg" alt="">
-      <img class="circle-3" src="images/aqua oval.png" alt="">
+      <img class="circle-3" src="images/aqua oval.png" alt=""> -->
     </div> 
-
+    </div>
+   </div>
+  
+    </header>
+  
   </div>
      
 
+<main>
   <input type="text" name="display" id="display" value="399,981">
 
-    <div class="container">
+  <div class="container">
 
-      <div class="calcus-container">
+    <div class="calcus-container">
+
+          <div class=" row row-one">
+             <input type="button" class="btn-one" value="7">
+             <input type="button" class="btn-two" value="8">
+             <input type="button" class="btn-three" value="9">
+             <input type="button" class="btn-four" value="DEL">
+          </div>
   
-            <div class="row-one">
-               <input type="button" class="btn-one" value="7">
-               <input type="button" class="btn-two" value="8">
-               <input type="button" class="btn-three" value="9">
-               <input type="button" class="btn-four" value="DEL">
-            </div>
-    
-            <div class="row-two">
-               <input type="button" class="btn-five" value="4">
-               <input type="button" class="btn-six" value="5">
-               <input type="button" class="btn-seven" value="6">
-               <input type="button" class="btn-eight" value="+">
-            </div>
-    
-            <div class="row-three">
-               <input type="button" class="btn-nine" value="1">
-               <input type="button" class="btn-ten" value="2">
-               <input type="button" class="btn-eleven" value="3">
-               <input type="button" class="btn-twelve" value="-">
-            </div>
-    
-            <div class="row-four">
-               <input type="button" class="btn-thirteen" value=".">
-               <input type="button" class="btn-fourteen" value="0">
-               <input type="button" class="btn-fifteen" value="/">
-               <input type="button" class="btn-sixteen" value="x">
-            </div>
-    
-            <div class="row-five">
-               <input type="button" class="btn-seventeen" value="RESET">
-               <input type="button" class="btn-eighteen" value="=">
-            </div>
+          <div class="row row-two">
+             <input type="button" class="btn-five" value="4">
+             <input type="button" class="btn-six" value="5">
+             <input type="button" class="btn-seven" value="6">
+             <input type="button" class="btn-eight" value="+">
+          </div>
   
-      </div>
+          <div class="row row-three">
+             <input type="button" class="btn-nine" value="1">
+             <input type="button" class="btn-ten" value="2">
+             <input type="button" class="btn-eleven" value="3">
+             <input type="button" class="btn-twelve" value="-">
+          </div>
+  
+          <div class="row row-four">
+             <input type="button" class="btn-thirteen" value=".">
+             <input type="button" class="btn-fourteen" value="0">
+             <input type="button" class="btn-fifteen" value="/">
+             <input type="button" class="btn-sixteen" value="x">
+          </div>
+  
+          <div class="row-five">
+             <input type="button" class="btn-seventeen" value="RESET">
+             <input type="button" class="btn-eighteen" value="=">
+          </div>
 
     </div>
+
+  </div>
+</main>
+</div>
 
   
 
