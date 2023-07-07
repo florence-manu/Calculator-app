@@ -1,3 +1,7 @@
+@media screen and (min-width: 320px) and (max-width: 425px){
+    
+}
+
 *{
     padding: 0;
     margin: 0;
@@ -34,7 +38,6 @@ body{
 .head{
     width: 100%;
     margin-top: 10%;
-    background-color: green;
 }
 
 
@@ -53,10 +56,10 @@ header{
 
 .header-right{
     display: flex;
-    /* align-items: flex-end; */
+    justify-content: space-between;
+    align-items: flex-end;
     gap: 10px;
     width: 30%;
-    background-color: blue;
 }
 
 .text{
@@ -71,7 +74,6 @@ header{
     flex-direction: column;
     gap: 5px;
     width: 50%;
-    background-color: purple;
 }
 
 
@@ -100,25 +102,10 @@ header{
     letter-spacing: 5px;
 } 
 
-.circle-1, .circle-2, .circle-3{
-    display: flex;
-    flex-direction: row;
-} 
-
-.circle-2, .circle-3{
-    display: none;
-}
-
-.circle-1{
-   display: initial;
-}
-
 main{
     display: flex;
     flex-direction: column;
     align-items: center;
-    /* justify-content: space-between; */
-    background-color: #fff;
 }
 #display{
     width: 100%;
@@ -227,29 +214,37 @@ input:hover{
 /* Desktop */
 
 
-@media screen and (min-width: 1024px){
+@media screen and (min-width: 1024px) and (max-width: 1440px){
 
     .wrapper{
         width: 50%;
     }
 
-    /* header{
-        background-color: #D03F2F;
-    } */
+    .header-right{
+        width: 20%;
+    }
 
-    /* .header-right{
-        background-color: blue;
-    } */
+    .picker{
+        width: 40%;
+    }
 
-    /* .picker{
-        background-color: peru;
+    .color-numbers{
+        letter-spacing: 4px;
+    }
 
-    } */
-
-     /* .color-picker{
-        width: 40px;
-        height: 10px;
-    }  */
+    .color-picker{
+        width: 41px;
+        height: 15px;
+    }
+    
+    .color-picker::after{
+        content: "";
+        height: 15px;
+        width: 15px;
+        /* background-color: #D03F2F; */
+        /* position: absolute; */
+        /* border-radius: 50%; */
+    }
 
     .main{
         width: 100%;
